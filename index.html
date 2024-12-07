@@ -24,7 +24,8 @@
         section {
             padding: 2rem;
             background-color: #ffffff;
-            margin: 1rem;
+            margin: 1rem auto;
+            max-width: 800px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
@@ -32,14 +33,28 @@
             font-size: 1.8rem;
             color: #34495e;
         }
-        .image {
-            max-width: 100%;
-            display: block;
-            margin: 1rem 0;
-        }
         .paragraph {
             font-size: 1.2rem;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+        .image-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .image {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            background-color: #2c3e50;
+            color: white;
         }
     </style>
 </head>
@@ -69,10 +84,9 @@
         <div class="paragraph">
             Before the argument could escalate, Miko leapt down from the trees. “Hold on, you two,” he said, scratching his head. “Why fight when we can settle this with a challenge? Each of you will search the jungle for the greatest treasure. Whoever finds the most valuable gift will lead the jungle.”
         </div>
-        <div class="paragraph">
-            Leo and Taran agreed, and the jungle buzzed with excitement.  
+        <div class="image-container">
+            <img class="image" src="1.png" alt="Taran at the ruins">
         </div>
-        <img class="image" src="1.png" alt="Taran at the ruins">
     </section>
 
     <section>
@@ -92,7 +106,9 @@
             Miko, ever the adventurer, found himself by a shimmering waterfall. Behind the cascading water, he spotted a glowing blue gemstone. It sparkled with an inner light, as though it held the jungle’s very spirit.  
             “This isn’t just a treasure—it’s a symbol of unity,” Miko said with a smile.
         </div>
-        <img class="image" src="2.png" alt="Leo gathering seeds">
+        <div class="image-container">
+            <img class="image" src="2.png" alt="Leo gathering seeds">
+        </div>
     </section>
 
     <section>
@@ -109,20 +125,13 @@
         <div class="paragraph">
             Finally, Miko held up the glowing gemstone. “This gem represents unity. Alone, we are strong, but together, we are unstoppable.”
         </div>
-        <div class="paragraph">
-            The animals murmured among themselves, impressed by all three treasures. After a long discussion, they reached a decision.
+        <div class="image-container">
+            <img class="image" src="3.png" alt="Miko at the waterfall">
         </div>
-        <div class="paragraph">
-            “Taran, Leo, and Miko,” an old elephant declared, “each of you brings something unique. The jungle doesn’t need one leader—it needs all three of you to guide us with strength, wisdom, and creativity.”
-        </div>
-        <div class="paragraph">
-            From that day on, the jungle thrived under the trio’s leadership. Taran guarded the land with unmatched bravery. Leo ensured fairness and foresight. And Miko brought joy and innovation to every corner of the jungle. Together, they proved that true leadership comes not from power alone, but from unity and understanding.
-        </div>
-        <img class="image" src="3.png" alt="Miko at the waterfall">
     </section>
 
     <footer>
-        <p style="text-align: center; font-size: 1.2rem; padding: 1rem;">&copy; 2024 The Jungle Pact Story. All rights reserved.</p>
+        <p>&copy; 2024 The Jungle Pact Story. All rights reserved.</p>
     </footer>
 </body>
 </html>
